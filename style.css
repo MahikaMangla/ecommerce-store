@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #FDF6F0;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .navbar {
+    background: #FFE5B4;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #F28C8C;
+  }
+  
+  .nav-links a {
+    margin-left: 1rem;
+    font-weight: 500;
+  }
+  
+  .hero {
+    background: url('../images/banner.jpg') center/cover no-repeat;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .hero-text {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 2.5rem;
+    color: #E8B4B8;
+  }
+  
+  .btn {
+    background: #F28C8C;
+    color: #fff;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+  }
+  
+  .featured-products,
+  .product-listing,
+  .newsletter {
+    padding: 3rem 2rem;
+    text-align: center;
+  }
+  
+  .product-grid {
+    display: grid;
+    gap: 2rem;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    margin-top: 2rem;
+  }
+  
+  .product-card {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+  
+  .product-card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .newsletter input {
+    padding: 0.5rem;
+    width: 250px;
+    margin-right: 0.5rem;
+  }
+  
+  .footer {
+    background: #FFE5B4;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 3rem;
+  }
+  
+  .hero .btn {
+    background-color: #F28C8C;
+    color: #fcfdfe;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    
+    margin-top: 1.5rem; /* 👈 This shifts the button slightly below */
+  }
+  
+  .hero .btn:hover {
+    background-color: #F28C8C;
+    color: #fff;
+  }
+  
